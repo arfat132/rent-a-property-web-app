@@ -40,7 +40,6 @@ const About = () => {
                             </span>
                         </div>
                     </div>
-
                     <div className="flex flex-col sm:flex-row jusitfy-center items-center sm:space-x-5 xl:space-x-8 space-y-4 sm:space-y-0">
                         <div>
                             <img className="hidden lg:block w-[580px]" src="https://www.aurobindorealty.com/wp-content/uploads/2020/11/shutterstock_352926425-V1.jpg" alt="sofa" />

@@ -1,9 +1,6 @@
-import React, { useState, useEffect, useContext } from 'react';
-// import icons
+import React, { useState, useContext } from 'react';
 import { RiWallet3Line, RiArrowDownSLine, RiArrowUpSLine, } from 'react-icons/ri';
-// import headless ui components
 import { Menu } from '@headlessui/react';
-// import context
 import { PropertyContext } from './PropertyContext';
 
 const PriceRange = () => {
@@ -52,7 +49,6 @@ const PriceRange = () => {
                     </div>
                 </div>
             </Menu.Button>
-
             <Menu.Items className='dropdown-menu list-none'>
                 {prices.map((price, index) => {
                     return (

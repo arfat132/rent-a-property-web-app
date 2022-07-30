@@ -26,9 +26,7 @@ const PropertyType = () => {
                         )}
                     </div>
                 </div>
-
             </Menu.Button>
-
             <Menu.Items className='dropdown-menu list-none'>
                 {properties.map((property, index) => {
                     return (

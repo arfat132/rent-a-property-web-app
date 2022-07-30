@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 // import icons
-import { RiMapPinLine, RiArrowDownSLine, RiArrowUpSLine } from 'react-icons/ri';
+import { RiArrowDownSLine, RiArrowUpSLine } from 'react-icons/ri';
 // import headless ui components
 import { Menu } from '@headlessui/react';
 // import context
@@ -29,7 +29,6 @@ const Surface = () => {
                     </div>
                 </div>
             </Menu.Button>
-
             <Menu.Items className='dropdown-menu list-none'>
                 {surfaces.map((surface, index) => {
                     return (

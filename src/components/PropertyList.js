@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { PropertyContext } from './PropertyContext';
-import { Link } from 'react-router-dom';
 import { ImSpinner2 } from 'react-icons/im';
 import Property from './Property';
 
@@ -22,7 +21,7 @@ const PropertyList = () => {
   }
 
   return (
-    <section id='property' className='mb-20'>
+    <div id='property' className='mb-20'>
       <div className='container mx-auto lg:px-20 px-10'>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {houses.slice(0, 18).map((house) => {
@@ -32,7 +31,7 @@ const PropertyList = () => {
           })}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

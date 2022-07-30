@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+
 const Agent = ({ agent }) => {
     return (
-        <section className="text-gray-600 body-font lg:mb-0 mb-8">
+        <div className="text-gray-600 body-font lg:mb-0 mb-8">
             <div className="container px-5 mx-auto">
                 <div className="shadow-lg">
                     <div className="h-full flex flex-col items-center text-center">
@@ -30,7 +32,7 @@ const Agent = ({ agent }) => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

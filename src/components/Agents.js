@@ -6,7 +6,7 @@ const Agents = () => {
     const { houses } = useContext(PropertyContext);
 
     return (
-        <section id='agent' className='mb-20'>
+        <div id='agent' className='mb-20'>
             <div className='container mx-auto lg:px-20 px-10'>
                 <div className="flex flex-col text-center w-full mb-10">
                     <h1 className="text-2xl title-font mb-4 text-gray-900 font-bold">OUR <span className='text-violet-700'>AGENTS</span></h1>
@@ -20,7 +20,7 @@ const Agents = () => {
                     })}
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 
