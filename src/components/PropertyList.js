@@ -22,7 +22,7 @@ const PropertyList = () => {
   }
 
   return (
-    <section className='mb-20'>
+    <section id='property' className='mb-20'>
       <div className='container mx-auto px-20'>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {houses.map((house) => {

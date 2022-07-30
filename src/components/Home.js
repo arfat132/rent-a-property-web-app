@@ -1,5 +1,6 @@
 import React from 'react';
 import Agents from './Agents';
+import Contact from './Contact';
 import Hero from './Hero';
 import PropertyList from './PropertyList';
 import Search from './Search';
@@ -11,6 +12,7 @@ const Home = () => {
             <Search></Search>
             <PropertyList></PropertyList>
             <Agents></Agents>
+            <Contact></Contact>
         </div>
     );
 };
