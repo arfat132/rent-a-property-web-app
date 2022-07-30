@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './About';
 import Agents from './Agents';
 import Contact from './Contact';
 import Hero from './Hero';
@@ -11,6 +12,7 @@ const Home = () => {
             <Hero></Hero>
             <Search></Search>
             <PropertyList></PropertyList>
+            <About></About>
             <Agents></Agents>
             <Contact></Contact>
         </div>

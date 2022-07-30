@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Agent = ({ agent }) => {
     console.log(agent)
     return (
-        <section class="text-gray-600 body-font">
+        <section class="text-gray-600 body-font lg:mb-0 mb-8">
             <div class="container px-5 mx-auto">
                 <div class="shadow-lg">
                     <div class="h-full flex flex-col items-center text-center">
