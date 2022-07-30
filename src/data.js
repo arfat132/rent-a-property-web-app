@@ -15,7 +15,7 @@ export const housesData = [
       year: '2016',
       price: '110000',
       agent: {
-        image: "",
+        image: "https://papiphotos.remax-im.com/Person/102223233/MainPhoto_cropped/MainPhoto_cropped.jpg",
         name: 'Patricia Tullert',
         phone: '0123 456 78910',
       },
@@ -36,7 +36,7 @@ export const housesData = [
       year: '2016',
       price: '140000',
       agent: {
-        image: "",
+        image: "https://www.compass.com/m3/76a952eda5f1e4f72a8bcdeefdaa9502915d461a/300x300.jpg",
         name: 'Daryl Hawker',
         phone: '0123 456 78910',
       },
@@ -57,7 +57,7 @@ export const housesData = [
       year: '2016',
       price: '170000',
       agent: {
-        image: "",
+        image: "https://papiphotos.remax-im.com/Person/101967856/MainPhoto_cropped/MainPhoto_cropped.jpg",
         name: 'Amado Smith',
         phone: '0123 456 78910',
       },
@@ -78,7 +78,7 @@ export const housesData = [
       year: '2016',
       price: '200000',
       agent: {
-        image: "",
+        image: "https://papiphotos.remax-im.com/Person/101938325/MainPhoto_cropped/MainPhoto_cropped.jpg",
         name: 'Kaitlyn Gonzalez',
         phone: '0123 456 78910',
       },
@@ -99,7 +99,7 @@ export const housesData = [
       year: '2015',
       price: '210000',
       agent: {
-        image: "",
+        image: "https://www.compass.com/m2/58071959-749d-4d50-beb7-2f071278517e",
         name: 'Grover Robinson',
         phone: '0123 456 78910',
       },
@@ -376,5 +376,6 @@ export const housesData = [
         name: 'Karen Sorensen',
         phone: '0123 456 78910',
       },
-    },
-  ];
+  },
+  
+   ];

@@ -6,7 +6,6 @@ import Property from './Property';
 
 const PropertyList = () => {
   const { houses, loading } = useContext(PropertyContext);
-  console.log(PropertyContext);
 
   if (loading) {
     return (
